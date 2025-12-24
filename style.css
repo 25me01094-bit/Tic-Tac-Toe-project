@@ -1,0 +1,154 @@
+body{
+    background-color: rgb(37, 7, 41);
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    height: 100vh;
+    flex-direction: column;
+}
+.game{
+    height: 300px;
+    width: 300px;
+    flex-wrap: wrap;
+    display: none;
+}
+.box{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    font-size: xx-large;
+    font-weight: 500;
+    color: aliceblue;
+}
+#result{
+    width: 300px;
+    height: 100px;
+    background-color: yellowgreen;
+    color: rgb(3, 3, 72);
+    font-family: 'Orbitron', sans-serif;
+    font-size: xx-large;
+    display: flex;
+    text-align: center;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+#play{
+    color: aliceblue;
+    background-color: rgb(129, 54, 8);
+    font-size: x-large;
+}
+.details{
+    height: 150px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: burlywood;
+}
+.details input {
+    height: 30px;
+    border-radius: 2px;
+    color: aliceblue;
+    text-align: center;
+    background-color: rgb(37, 7, 41);
+}
+.butt{
+    height: 150px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: burlywood;
+}
+.butt button{
+    height: 60px;
+    width: 100px;
+}
+.replay button{
+    color: aliceblue;
+    background-color: rgb(129, 54, 8);
+    height: 60px;
+    width: 150px;
+    font-size: xx-large;
+}
+.replay{
+    display: none;
+}
+.win{
+    transform : scale(1.15) ;
+    background-color : yellow ;
+    color :black;
+}
+.board{
+    display: none;
+}
+.consider{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 750px;
+    height: 80px;
+}
+.popup{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 250px;
+    background-color: aquamarine;
+    border: 1.5px solid black;
+    border-radius: 10%;
+}
+.popup p{
+    font-size: x-large;
+    color:rgb(68, 18, 114) ;
+}
+#ok{
+    color: aliceblue;
+    background-color: rgb(129, 54, 8);
+    height: 30px;
+    width: 75px;
+    font-size: large;
+}
+#reset::after{
+    content: "Play with the same player again";
+    position: absolute;
+    background: wheat;
+    font-size: large;
+    height: 50px;
+    width: 200px;
+    opacity: 0;
+    transition: 0.3s;
+    border-radius: 2px;
+    color: black;
+    transform: translateX(-160px) translateY(-80px);
+}
+#reset:hover::after{
+    opacity: 1;
+}
+#restart::after{
+    content: "Play with the another player";
+    position: absolute;
+    background: wheat;
+    font-size: large;
+    height: 50px;
+    width: 200px;
+    opacity: 0;
+    transition: 0.3s;
+    border-radius: 2px;
+    color: black;
+    transform: translateX(-160px) translateY(-80px);
+}
+#restart:hover::after{
+    opacity: 1;
+}

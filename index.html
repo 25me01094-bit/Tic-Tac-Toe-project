@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="intro">
+        <div class="details">
+        <input id="player1" type="text" placeholder="Enter player 1 name">
+        <input id="player2" type="text" placeholder="Enter player 2 name">
+        </div>
+        <div class="butt">
+            <button type="button" id="play"> PLAY ! </button>
+            <div class="popup">
+                <p>Invalid name !</p>
+                <button type="button" id="ok">Ok</button>
+            </div>
+        </div>
+    </div>
+    <div class="board">
+        <input type="text" readonly id="result">
+    </div>
+    <div class="game">
+    <button class="box" id="c1" type="button"></button>
+    <button class="box" id="c2" type="button"></button>
+    <button class="box" id="c3" type="button"></button>
+    <button class="box" id="c4" type="button"></button>
+    <button class="box" id="c5" type="button"></button>
+    <button class="box" id="c6" type="button"></button>
+    <button class="box" id="c7" type="button"></button>
+    <button class="box" id="c8" type="button"></button>
+    <button class="box" id="c9" type="button"></button>
+    </div>
+    <div class="replay">
+        <button type="button" id="reset">Replay !</button>
+        <button type="button" id="restart">Restart !</button>
+    </div>
+</body>
+</html>
