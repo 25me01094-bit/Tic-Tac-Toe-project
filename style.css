@@ -152,3 +152,77 @@ body{
 #restart:hover::after{
     opacity: 1;
 }
+@media (max-width: 768px) {
+    body {
+        gap: 40px;
+        padding: 10px;
+    }
+    .intro {
+        width: 100%;
+        height: auto;
+        gap: 20px;
+    }
+    .details , .butt {
+        width: 100%;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .details input {
+        width: 80%;
+        height: 40px;
+        font-size: large;
+    }
+    #play {
+        width: 150px;
+        height: 50px;
+    }
+    .game {
+        width: 240px;
+        height: 240px;
+    }
+    .box {
+        width: 80px;
+        height: 80px;
+        font-size: xx-large;
+    }
+    #result {
+        width: 240px;
+        height: 70px;
+        font-size: large;
+    }
+    .replay {
+        gap: 15px;
+    }
+    .replay button {
+        width: 140px;
+        height: 50px;
+        font-size: large;
+    }
+    #reset::after,
+    #restart::after {
+        display: none;
+    }
+    .popup {
+        width: 200px;
+        height: 120px;
+    }
+    .popup p {
+        font-size: large;
+        text-align: center;
+    }
+}
+@media (max-width: 480px) {
+    .game {
+        width: 210px;
+        height: 210px;
+    }
+    .box {
+        width: 70px;
+        height: 70px;
+        font-size: x-large;
+    }
+    #result {
+        width: 210px;
+        font-size: medium;
+    }
+}
