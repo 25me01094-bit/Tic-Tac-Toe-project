@@ -95,7 +95,7 @@ body{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    width: 560px;
+    width: 400px;
     height: 80px;
 }
 .popup{
@@ -222,7 +222,7 @@ body{
         font-size: x-large;
     }
     #result {
-        width: 230px;
+        width: 260px;
         font-size: medium;
     }
 }
