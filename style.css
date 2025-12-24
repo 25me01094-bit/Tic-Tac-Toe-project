@@ -95,7 +95,7 @@ body{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    width: 750px;
+    width: 560px;
     height: 80px;
 }
 .popup{
@@ -186,12 +186,12 @@ body{
         font-size: xx-large;
     }
     #result {
-        width: 300px;
+        width: 320px;
         height: 70px;
         font-size: large;
     }
     .replay {
-        gap: 15px;
+        gap: 10px;
     }
     .replay button {
         width: 140px;
